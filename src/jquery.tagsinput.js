@@ -344,11 +344,11 @@
 		for (i=0; i<tags.length; i++) { 
 			$(obj).addTag(tags[i],{focus:false,callback:false});
 		}
-		if(tags_callbacks[id] && tags_callbacks[id]['onChange'])
+		/*if(tags_callbacks[id] && tags_callbacks[id]['onChange'])
 		{
 			var f = tags_callbacks[id]['onChange'];
 			f.call(obj, obj, tags[i]);
-		}
+		}*/
 	};
 
 })(jQuery);
