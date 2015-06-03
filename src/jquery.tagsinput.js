@@ -105,7 +105,7 @@
                         }).click(function () {
                             return $('#' + id).removeTag(escape(value));
                         })
-                    ).insertBefore('#' + id + '_addTag');
+                    ).insertAfter('#' + id + '_addTag');
 
 					tagslist.push(value);
 
